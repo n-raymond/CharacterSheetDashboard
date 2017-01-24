@@ -1,0 +1,50 @@
+
+
+[
+    {
+        "pokemon"   : "Tarsal",
+        "name"      : "Gordon",
+        "typ"       : "Psy Fée",
+        "level"     : 6,
+        "nature"    : "Obstiné",
+        "sprite"    : "Tarsal.png",
+        "stats"     : {
+            "pvBase"                : 28,
+            "pvAdd"                 : 2,
+            "attackkBase"           : 25,
+            "attackAdd"             : 0,
+            "defenseBase"           : 25,
+            "defenseAdd"            : 1,
+            "attackSpecialBase"     : 45,
+            "attackSpecialAdd"      : 2,
+            "defenseSpecialBase"    : 35,
+            "defenseSpecialAdd"     : 1,
+            "vitesseBase"           : 40,
+            "vitesseAdd"            : 2
+        },
+        "attacks" : ["Rugissement", "Choc Mental"]
+    },
+    {
+        "pokemon"   : "Prismillon",
+        "name"      : "Tartenpion",
+        "typ"       : "Insecte Vol",
+        "level"     : 15,
+        "nature"    : "Festif",
+        "sprite"    : "",
+        "stats"     : {
+            "pvBase"                : 328,
+            "pvAdd"                 : 32,
+            "attackkBase"           : 325,
+            "attackAdd"             : 30,
+            "defenseBase"           : 325,
+            "defenseAdd"            : 31,
+            "attackSpecialBase"     : 345,
+            "attackSpecialAdd"      : 32,
+            "defenseSpecialBase"    : 335,
+            "defenseSpecialAdd"     : 31,
+            "vitesseBase"           : 340,
+            "vitesseAdd"            : 32
+        },
+        "attacks" : ["Mur Lumière", "Nuée de Poudre", "Para-Spore", "Poudre Dodo", "Poudre Toxik", "Tornade", "Survinsecte"]
+    }
+]
