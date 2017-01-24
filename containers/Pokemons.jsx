@@ -2,7 +2,8 @@
  * Created by yann on 24/01/17.
  */
 import React from 'react';
-import Pokemon from '../components/PokemonThumbnail';
+import { Router, Route, Link } from 'react-router';
+import PokemonThumbnail from '../components/PokemonThumbnail';
 
 class Pokemons extends React.Component {
   constructor(props) {
@@ -13,8 +14,12 @@ class Pokemons extends React.Component {
   render(){
     return (
       <div>
-        {this.state.pokemons.map(p => <Pokemon name={p.name} thumbnail={p.thumbnail} />)}
+        {this.state.pokemons.map(p => <PokemonThumbnail name={p.name} thumbnail={p.thumbnail} />)}
+        <Link to="Pokemon">
+          Add pokemon
+        </Link>
       </div>
+
     );
   }
 
