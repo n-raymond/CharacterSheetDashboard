@@ -5,7 +5,7 @@ class SectionNavbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      sections: ['Character', 'Pokemon', 'Posts', 'Links', 'Tresors']
+      sections: ['Character', 'Pokemons', 'Posts', 'Links', 'Tresors']
     }
   }
     render() {

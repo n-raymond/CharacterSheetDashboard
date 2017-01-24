@@ -2,7 +2,7 @@
  * Created by yann on 24/01/17.
  */
 import React from 'react';
-import Link from  './Link';
+import { Router, Route, Link } from 'react-router'
 
 class Section extends React.Component {
   render() {
