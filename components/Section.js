@@ -2,12 +2,15 @@
  * Created by yann on 24/01/17.
  */
 import React from 'react';
+import Link from  './Link';
 
 class Section extends React.Component {
   render() {
     return (
       <div>
-        {this.props.name}
+        <Link to={this.props.name} >
+          {this.props.name}
+        </Link>
       </div>
     );
   }
